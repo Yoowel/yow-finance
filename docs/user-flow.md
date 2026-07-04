@@ -1,3 +1,13 @@
 -- [ User Flow ] --
 
-Register -> Login -> Dashboard -> Tambah Saldo (ada keterangan) -> Kurang Saldo (ada keterangan + Category untuk apa) -> Lihat Dashboard -> Lihat report
+-- Register
+Register -> Login -> Dashboard
+
+-- Wallet
+Login -> Dashboard -> Menu Wallet -> Tambah Wallet
+
+-- Category
+Login -> Dashboard -> Menu Category -> Tambah Category
+
+-- Transaksi
+Login -> Dashboard -> Menu Wallet -> Pilih Wallet -> Tambah Transaksi -> Pilih: Income/Expense -> Pilih Category -> Masukan Nominal -> Tambah Catatan -> Simpan
