@@ -1,27 +1,27 @@
 -- [ Database Design ] --
 
 [User]
-id
+PK id
 name
 email
 password
 created_at
 
 [Wallet]
-id
-user_id
+PK id
+FK user_id -> User.id
 name
 
 [Transaction]
-id
-wallet_id
-category_id
+PK id
+FK wallet_id -> Wallet.id
+FK category_id -> Category.id
 type
 amount
 date
 note
 
 [Category]
-id
-user_id
+PK id
+FK user_id -> User.id
 name
